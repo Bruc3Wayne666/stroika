@@ -1,0 +1,22 @@
+@import "src/styles/base/vars";
+
+.item {
+  padding: 34px 80px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+
+  background: #FFF;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.09);
+
+
+  span {
+    color: $black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

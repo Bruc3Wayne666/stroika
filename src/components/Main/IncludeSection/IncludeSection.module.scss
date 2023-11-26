@@ -1,0 +1,55 @@
+@import "src/styles/base/vars";
+
+.includes {
+  margin-bottom: 90px;
+}
+
+.titleBlock {
+  margin-bottom: 52px;
+  padding-left: 105px;
+
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.content {
+  display: flex;
+  padding-left: 105px;
+
+  //gap: 20px;
+}
+
+.left {
+  max-width: 688.106px;
+  padding-right: 20px;
+}
+
+.text {
+  p {
+    color: $black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 137.9%; /* 27.58px */
+  }
+}
+
+.items {
+  margin-top: 23px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 12px;
+}
+
+
+.right {
+  position: relative;
+
+  button {
+    position: absolute;
+    left: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.navbar {
+  height: 76px;
+  //background-color: #0B1E48;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 68px;
+  border-bottom-width: 1px;
+  border-bottom-color: #BEBDBD;
+  border-bottom-style: solid;
+}
+
+.list {
+  display: flex;
+  gap: 104px;
+}

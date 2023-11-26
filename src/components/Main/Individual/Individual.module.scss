@@ -1,0 +1,54 @@
+@import "src/styles/base/vars";
+
+.individual {
+  margin-bottom: 29px;
+}
+
+.content {
+  display: flex;
+  gap: 43px;
+}
+
+.right {
+}
+
+.toLeft {
+  margin-top: 61px;
+
+  .items {
+    padding-left: 0;
+    padding-right: 105px;
+  }
+}
+
+.items {
+  padding-left: 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 33px;
+}
+
+.item {
+  text-align: center;
+  padding: 31px 0;
+  background: $light;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+
+  color: $black;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.titleBlock {
+  margin-bottom: 52px;
+  padding-left: 105px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+}

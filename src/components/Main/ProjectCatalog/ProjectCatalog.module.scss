@@ -1,0 +1,67 @@
+@import 'src/styles/base/vars';
+
+
+.catalog {
+  display: flex;
+  //justify-content: center;
+  margin-bottom: 93px;
+}
+
+.titleBlock {
+  margin: 85px auto 74px;
+}
+
+.title {
+  text-align: center;
+  color: $color-header;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 66px;
+}
+
+.projectsBlock {
+  margin-top: 60px;
+}
+
+.projects {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  //grid-template-columns: repeat(auto-fit, minmax(670px, 1fr));
+  grid-column-gap: 39px;
+}
+
+.info {
+  display: flex;
+  gap: 41px;
+}
+
+.infoItem {
+  background: $light;
+  box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.13);
+  flex: 1;
+  text-align: center;
+
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 66px; /* 188.571% */
+}
+
+.bottom {
+}
+
+.text {
+  color: $black;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 66px; /* 220% */
+  text-align: right;
+  padding-right: 50px;
+
+
+  span::after {
+    margin-left: 12px;
+    content: url(src/assets/button/arrow_long.png);
+  }
+}

@@ -1,0 +1,45 @@
+@import "src/styles/base/vars";
+
+.header {
+  min-height: 800px;
+  background-image: url(src/assets/header/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-between;
+}
+
+
+.titleBlock {
+  margin-top: 70px;
+}
+
+.title {
+  color: $color-header;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 59px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: $color-header;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125.4%;
+  margin: 40px auto 0;
+  max-width: 350px;
+}
+
+.footer {
+  margin: 322px auto 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}

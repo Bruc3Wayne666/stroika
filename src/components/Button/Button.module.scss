@@ -1,0 +1,91 @@
+@import "src/styles/base/vars";
+
+.button {
+  background-color: $color-button-bg;
+  color: $light;
+  transition: .2s;
+  font-weight: 500;
+
+  &.common {
+    width: 330px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &.cart {
+    background-color: transparent;
+    width: 206px;
+    height: 71px;
+    border: 1px solid #C1C1C1;
+
+    background-image: url(src/assets/button/cart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover, :active {
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+
+  &.common_sm {
+    width: 310px;
+    height: 76px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &.more {
+    width: 455px;
+    height: 71px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+
+    span::after {
+      position: absolute;
+      top: 27px;
+      content: url(src/assets/button/arrow_right.svg);
+    }
+  }
+
+  &.cost {
+    width: 238px;
+    height: 76px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &.form {
+    width: 470px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &:hover {
+    box-shadow: 0px 4px 9px 0px #5F5DFF, 0px -1px 9px 0px #5754FF;
+    //font-size: 20px;
+  }
+
+  &:active {
+    background-color: $light;
+    color: $color-accent-font;
+    box-shadow: 0px 4px 9px 0px #FFF, 0px -1px 9px 0px #FFF;
+  }
+
+  &.light {
+    background-color: $light;
+    color: $black;
+    font-weight: 500;
+
+    &:hover {
+      box-shadow: 0px 4px 9px 0px #FFF, 0px -1px 9px 0px #FFF;
+    }
+
+    &:active {
+      color: $color-accent-font;
+    }
+  }
+}

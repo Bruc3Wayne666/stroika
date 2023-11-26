@@ -1,0 +1,53 @@
+@import "src/styles/base/vars";
+
+.card {
+  max-width: 670px;
+  margin-bottom: 80px;
+
+  &.offset {
+    margin-top: 64px;
+  }
+}
+
+.info {
+
+}
+
+.type {
+  margin-top: 2px;
+  color: $color-accurate-font;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%; /* 27px */
+}
+
+.item {
+  margin-top: 2px;
+  color: $color-main-font;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 66px; /* 132% */
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {}
+
+.price {}
+
+.dimensions {
+  margin-top: 11px;
+  color: $black;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 136.4%; /* 27.28px */
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
