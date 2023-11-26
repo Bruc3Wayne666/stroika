@@ -1,0 +1,53 @@
+@import "src/styles/base/vars";
+
+.accordeon {
+
+}
+
+.items {
+
+}
+
+.item {
+
+  //border-top: 1px solid $color-main-font;
+
+
+  .key {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 54px; /* 245.455% */
+
+    padding: 27px 0;
+
+    border-bottom: 1px solid $color-main-font;
+
+    &:first-child {
+      border-top: 1px solid $color-main-font;
+    }
+
+    &:hover ~ .value {
+      display: block;
+    }
+
+    background-image: url(../../../../assets/sections/ask/arrow_down.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .value {
+    display: none;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+
+    padding: 30px 0;
+
+    background-image: url(../../../../assets/sections/ask/arrow_up.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+}

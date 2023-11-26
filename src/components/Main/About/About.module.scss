@@ -1,0 +1,27 @@
+@import "src/styles/base/vars";
+
+
+.about {
+  background-image: url(../../../assets/sections/about/bg.jpg);
+  background-repeat: no-repeat;
+
+  padding-bottom: 80px;
+}
+
+.titleBlock {
+  padding-top: 93px;
+}
+
+.title {
+  color: $light;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 66px; /* 132% */
+}
+
+.items {
+  margin-top: 227px;
+  display: flex;
+  gap: 16px;
+}

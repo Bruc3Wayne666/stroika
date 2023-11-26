@@ -1,0 +1,13 @@
+@import "src/styles/base/vars";
+
+.input {
+  border: 1px solid $color-secondary-font;
+  padding: 13px 24px;
+
+  &::placeholder {
+    color: $color-secondary-font;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 135%; /* 27px */
+  }
+}
